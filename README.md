@@ -30,10 +30,10 @@ The project combines a **React frontend** with a **Node.js and Express backend**
 
 ---
 
-## Product Demo
+## **Product Demo**
 
 <p align="center">
-  <img src="./Screenshots/Movers4U-GIF.gif" alt="Movers4U Demo" width="900">
+  <img src="Screenshots/Movers4U-GIF.gif" alt="Movers4U Demo" width="900">
 </p>
 
 ---
@@ -79,30 +79,16 @@ Properties include information such as title, description, category, size, rooms
 
 ---
 
-## Tech Stack
+## **Tech Stack**
 
-### Frontend
-
-* **React**
-* **React Router**
-* **Axios**
-* **Vite**
-* **JavaScript**
-* **CSS3**
-
-### Backend
-
-* **Node.js**
-* **Express.js**
-* **Sequelize**
-* **MySQL**
-* **JWT**
-* **bcryptjs**
-* **Multer**
-* **Nodemailer**
-* **Twilio**
-* **CORS**
-* **dotenv**
+| Category                       | Technologies                                       |
+| ------------------------------ | -------------------------------------------------- |
+| **Frontend**                   | React, React Router, Axios, Vite, JavaScript, CSS3 |
+| **Backend**                    | Node.js, Express.js                                |
+| **Database**                   | MySQL, Sequelize ORM                               |
+| **Authentication & Security**  | JWT, bcryptjs, OTP Verification                    |
+| **File & Email Services**      | Multer, Nodemailer, Twilio                         |
+| **Configuration & Middleware** | CORS, dotenv                                       |
 
 ---
 
