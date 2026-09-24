@@ -20,7 +20,7 @@ Movers4U is a full-stack real estate marketplace designed to connect property bu
 
 ---
 
-## 📌 About
+## About
 
 **Movers4U** is a full-stack real estate marketplace designed to provide a platform where users can discover, list, manage, and purchase properties.
 
