@@ -365,7 +365,7 @@ Sensitive credentials should always remain in environment variables and should n
 
 ---
 
-## 📚 Project Purpose
+## Project Purpose
 
 Movers4U was developed as a full-stack software project to practice and demonstrate:
 
@@ -381,6 +381,6 @@ Movers4U was developed as a full-stack software project to practice and demonstr
 
 ---
 
-## 📄 License
+## License
 
 This project is developed as a software project and learning application.
