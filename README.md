@@ -30,6 +30,14 @@ The project combines a **React frontend** with a **Node.js and Express backend**
 
 ---
 
+## Product Demo
+
+<p align="center">
+  <img src="./Screenshots/Movers4U-GIF.gif" alt="Movers4U Demo" width="900">
+</p>
+
+---
+
 ## Features
 
 ### Authentication & Account Management
@@ -39,15 +47,12 @@ The project combines a **React frontend** with a **Node.js and Express backend**
 * JWT-based authentication
 * Password hashing with bcrypt
 * OTP verification
-* OTP resend functionality
-* Forgot password functionality
-* Password reset functionality
+* Forgot and reset password functionality
 
 ### Buyer Features
 
 * Browse approved properties
-* View property details
-* View property information and images
+* View property details and images
 * View seller information
 * Purchase available properties
 * Track purchased property information
@@ -56,8 +61,7 @@ The project combines a **React frontend** with a **Node.js and Express backend**
 
 * Create property listings
 * Upload property images
-* Add property details
-* View seller-owned properties
+* Manage listed properties
 * Submit properties for admin approval
 * Track property approval status
 
@@ -65,36 +69,13 @@ The project combines a **React frontend** with a **Node.js and Express backend**
 
 * View property listings
 * Review pending properties
-* Approve property listings
-* Reject property listings
+* Approve or reject property listings
 * Filter properties by status
 * Manage property status
 
 ### Property Management
 
-Each property can contain information such as:
-
-* Property title
-* Description
-* Category
-* Size
-* Number of rooms
-* Price
-* City
-* Address
-* Images
-* Seller information
-* Approval status
-* View count
-* Sold status
-* Buyer information
-* Sale date
-
-### Contact
-
-* Contact form
-* Contact information submission
-* Backend storage of contact requests
+Properties include information such as title, description, category, size, rooms, price, location, images, seller details, approval status, views, and sale information.
 
 ---
 
@@ -224,18 +205,7 @@ The User model stores account and authentication information, including user rol
 
 ### House
 
-The House model stores property information including:
-
-* Property details
-* Location
-* Price
-* Images
-* Seller information
-* Approval status
-* Views
-* Sold status
-* Buyer information
-* Sale date
+Stores property details, location, price, images, seller information, approval status, views, and sale information.
 
 ### Contact
 
@@ -347,37 +317,6 @@ npm run dev
 ```
 
 Vite will display the local development URL in the terminal.
-
----
-
-## Security
-
-The application includes:
-
-* JWT authentication
-* Password hashing
-* Protected backend routes
-* Role-based access
-* OTP verification
-* Environment-based configuration
-
-Sensitive credentials should always remain in environment variables and should never be committed to source control.
-
----
-
-## Project Purpose
-
-Movers4U was developed as a full-stack software project to practice and demonstrate:
-
-* Frontend development with React
-* REST API development
-* Backend development with Node.js and Express
-* Database management with MySQL
-* Sequelize ORM
-* Authentication and authorization
-* File uploads
-* Role-based application architecture
-* Full-stack application integration
 
 ---
 
