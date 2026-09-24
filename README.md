@@ -98,7 +98,7 @@ Each property can contain information such as:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -182,7 +182,7 @@ Movers4U/
 
 ---
 
-## 🔄 Application Workflow
+## Application Workflow
 
 ```text
                          Movers4U
